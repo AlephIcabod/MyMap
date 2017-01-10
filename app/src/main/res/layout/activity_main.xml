@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.alephicabod.mymaps.MainActivity"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:src="@drawable/santo_domingo"
+                android:layout_width="@dimen/anchoImagen"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:layout_marginRight="5dp"
+                android:id="@+id/santoDomingo"
+                android:onClick="verMapa"
+                />
+
+            <ImageView
+                android:src="@drawable/monte_alban"
+                android:layout_width="@dimen/anchoImagen"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:id="@+id/monteAlban"
+                android:onClick="verMapa"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:src="@drawable/tule"
+                android:layout_width="@dimen/anchoImagen"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:layout_marginRight="5dp"
+                android:id="@+id/tule"
+                android:onClick="verMapa"
+                />
+
+            <ImageView
+                android:src="@drawable/zocalo"
+                android:layout_width="@dimen/anchoImagen"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:id="@+id/zocalo"
+                android:onClick="verMapa"
+                />
+
+
+        </LinearLayout>
+
+</LinearLayout>
